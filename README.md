@@ -32,4 +32,4 @@ A set of scripts for preprocessing diffusion weighted MRI data and resting state
       https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/topup/TopupUsersGuide\
       https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy/UsersGuide\
   2. change the paths on the preprocessing.sh and the probtrackx.sh scripts 
-  3. run the scripts with the slurm wrapper scripts on the cluster if it's available. If no cluster computing is available, bear in mind that bedpostx can take several days for one image using one CPU core and 5+ GBP RAM. GPU accelerated implementations may be an alternative.
+  3. run the scripts with the slurm wrapper scripts on the cluster if it's available. If no cluster computing is available, bear in mind that bedpostx can take several days for one image using one CPU core and 5+ GBP RAM. Running bedpostx with GPU acceleration may be an alternative.
