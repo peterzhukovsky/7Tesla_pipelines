@@ -19,8 +19,8 @@ A set of scripts for preprocessing diffusion weighted MRI data and resting state
         https://www.ncbi.nlm.nih.gov/pubmed/23283687  Tziortzi et al 2014; also see \
         https://www.sciencedirect.com/science/article/pii/S2213158218303450
     
-  4. Targets.txt - a text file to point to the set of target masks, the path to this file needs to be referenced in the scripts
-    
+  4. Targets.txt - a text file to point to the set of target masks, the path to this file needs to be referenced in the scripts \
+  **!!! All paths need to be adjusted to point to the right files**
 # How to automate the pipeline
   1. prepare the individual participant folders\
     Each subject's folder should contain the following:
