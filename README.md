@@ -16,8 +16,7 @@ A set of scripts for preprocessing diffusion weighted MRI data and resting state
     3.7 temporal\
     3.8 striatum (STR_ROI)\
     *Note: this may not be the best target parcellation, especially since it produced different striatal parcellations from Tziortzi et al 2014* \
-        https://www.ncbi.nlm.nih.gov/pubmed/23283687  Tziortzi et al 2014 
-    also see \
+        https://www.ncbi.nlm.nih.gov/pubmed/23283687  Tziortzi et al 2014; also see \
         https://www.sciencedirect.com/science/article/pii/S2213158218303450
     
   4. Targets.txt - a text file to point to the set of target masks, the path to this file needs to be referenced in the scripts
