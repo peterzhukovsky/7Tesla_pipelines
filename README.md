@@ -22,6 +22,14 @@ A set of scripts for preprocessing diffusion weighted MRI data and resting state
   4. Targets.txt - a text file to point to the set of target masks, the path to this file needs to be referenced in the scripts
     
 # How to automate the pipeline
-  1. prepare the individual participant folders  
+  1. prepare the individual participant folders\
+    Each subject's folder should contain the following:
+      - data.nii (the large diffusion file with many diffusion directions)\
+      - data_inv.nii (the small diffusion file with reverse encoding direction: you can see if it's X, Y or Z by looking at which direction the image distortion takes)\
+      - bvals (from the large diffusion file)\
+      - bvecs (from the large diffusion file)\
+      *Note: this preprocessing pipeline uses FSL topup and FSL eddy; it relies on having acquired a diffusion image in the reverse direction from the main diffusion file as described on the FSL user guide.*\
+      https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/topup/TopupUsersGuide\
+      https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy/UsersGuide\
   2. change the paths on the preprocessing.sh and the probtrackx.sh scripts 
-  3. run the scripts with the slurm wrapper scripts on the cluster if it's available. If no cluster computing is available, bear in mind that bedpostx can take several days for one image using one CPU core and 4+ GBP RAM. GPU accelerated implementations may be an alternative.
+  3. run the scripts with the slurm wrapper scripts on the cluster if it's available. If no cluster computing is available, bear in mind that bedpostx can take several days for one image using one CPU core and 5+ GBP RAM. GPU accelerated implementations may be an alternative.
