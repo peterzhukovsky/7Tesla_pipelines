@@ -1,0 +1,7 @@
+/group/p00481/7T_DTI_PZ/DTI_7T/DTI_niis_raw/1004/Occipital_indiffspace.nii.gz
+/group/p00481/7T_DTI_PZ/DTI_7T/DTI_niis_raw/1004/Parietal_indiffspace.nii.gz
+/group/p00481/7T_DTI_PZ/DTI_7T/DTI_niis_raw/1004/Temporal_indiffspace.nii.gz
+/group/p00481/7T_DTI_PZ/DTI_7T/DTI_niis_raw/1004/anterior_motor_indiffspace.nii.gz
+/group/p00481/7T_DTI_PZ/DTI_7T/DTI_niis_raw/1004/executive_indiffspace.nii.gz
+/group/p00481/7T_DTI_PZ/DTI_7T/DTI_niis_raw/1004/posterior_motor_indiffspace.nii.gz
+/group/p00481/7T_DTI_PZ/DTI_7T/DTI_niis_raw/1004/limbic_indiffspace.nii.gz
