@@ -1,5 +1,5 @@
 # 7Tesla_pipelines
-A set of scripts for preprocessing diffusion weighted MRI data and resting state functional MRI data (optimized on a 7T dataset, WBIC Cambridge)
+A set of scripts for preprocessing diffusion weighted MRI data (optimized on a 7T dataset, WBIC Cambridge)
 
 # Included files:
   1. Scripts that run preprocessing (preprocessing.sh) and can automate this process using cluster computing by parallelizing the operation (slurm_submit_pz.sh)\
